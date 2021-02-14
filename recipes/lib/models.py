@@ -37,7 +37,7 @@ recipe_model = api.model('Recipe', {
     'recipeInstructions': fields.String(required=True, description='instructions'),
     'ingredients': fields.List(fields.Nested(ingredient_model), required=True),
     'recipeImage': fields.String(required=False, description='source of image from web'),
-    'categories': fields.List(fields.Nested(category_model)),
+    'categories': fields.List(fields.String()),
     'source': fields.String(required=True, description='where is this from?')
 })
 

@@ -3,7 +3,7 @@ import logging
 from flask_restx import Resource
 
 from recipes.restx import api
-from recipes.lib.get_recipes import get_all_sources, get_source, update_source, delete_source
+from recipes.lib.helpers import get_all_sources, get_source, update_source, delete_source
 
 log = logging.getLogger(__name__)
 

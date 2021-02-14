@@ -4,7 +4,7 @@ from flask_restx import Resource
 from flask_restx import reqparse
 
 from recipes.restx import api
-from recipes.lib.get_recipes import create_category, get_all_categories, get_category, update_category, delete_category
+from recipes.lib.helpers import get_all_categories, get_category, update_category, delete_category
 
 log = logging.getLogger(__name__)
 

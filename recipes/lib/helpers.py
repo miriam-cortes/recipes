@@ -26,10 +26,6 @@ def update_recipe(id, data):
 ##############
 # CATEGORIES #
 ##############
-def create_category(category_name):
-    return f"category {category_name} created"
-
-
 def delete_category(id):
     return f"category {id} deleted"
 

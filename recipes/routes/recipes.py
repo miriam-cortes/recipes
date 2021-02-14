@@ -4,7 +4,7 @@ from flask_restx import Resource
 from flask_restx import reqparse
 
 from recipes.restx import api
-from recipes.lib.get_recipes import create_recipe, get_all_recipes, get_recipe, update_recipe, delete_recipe
+from recipes.lib.helpers import create_recipe, get_all_recipes, get_recipe, update_recipe, delete_recipe
 from recipes.lib.models import recipe_model
 
 log = logging.getLogger(__name__)
